@@ -10,12 +10,16 @@ public class Event {
 
             if payLoad.count >= 2 {
                 print(payLoad)
-
-                let messageType: String = payLoad["messageType"]! as! String
-                let messagePayload: String = payLoad["messagePayload"]! as! String
-                if let senderClientId = payLoad["senderClientId"] {
+                
+                guard let messageType: String = payLoad["messageType"] as? String else {
+                    return nil
+                }
+                guard let messagePayload: String = payLoad["messagePayload"] as? String else {
+                    return nil
+                }
+                if let senderClientId: String = payLoad["senderClientId"] as? String {
                     print("senderClientId : \(senderClientId)")
-                    return Message(messageType, "", senderClientId as! String, messagePayload)
+                    return Message(messageType, "", senderClientId, messagePayload)
                 } else {
                     return Message(messageType, "", "", messagePayload)
                 }
