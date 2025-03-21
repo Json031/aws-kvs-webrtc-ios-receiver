@@ -3,8 +3,10 @@ A modified version of amazon-kinesis-video-streams-webrtc-sdk-ios that supports 
 
 Tip: Before running the app, replace the AWSAccessKey and AWSSecretKey, and enter your channel name and region.
 
-<img src="https://github.com/user-attachments/assets/f00eb1cc-e50f-4e54-b508-8ca13478d7a9" alt="ChannelInfo Configuration" style="width: 50%; border: 2px solid blue;">
-<img src="https://github.com/user-attachments/assets/6ccb3b4b-85b1-470d-b944-95f83b0db15f" alt="Video Viewer Page" style="width: 50%; border: 2px solid blue;">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f00eb1cc-e50f-4e54-b508-8ca13478d7a9" width="300" style="border: 2px solid blue;" />
+  <img src="https://github.com/user-attachments/assets/6ccb3b4b-85b1-470d-b944-95f83b0db15f" width="300" style="border: 2px solid blue;" />
+</p>
 
 ## Requirements
 
