@@ -1,7 +1,8 @@
 # aws-kvs-webrtc-ios-receiver
 A modified version of amazon-kinesis-video-streams-webrtc-sdk-ios that supports receiving only video and audio streams. AWS authentication is switched from Cognito to AWS Static Credentials.  
 
-Tip: Before running the app, replace the AWSAccessKey and AWSSecretKey, and enter your channel name and region.
+#### Tip 1: Before running the app, replace the AWSAccessKey and AWSSecretKey, and enter your channel name and region.
+#### Tip 2: When the popup requests microphone permission, please select 'Don't Allow' directly. This microphone popup might be a bug in the official WebRTC implementation because it will popup even if set isAudioOn to false.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f00eb1cc-e50f-4e54-b508-8ca13478d7a9" width="300" style="border: 2px solid blue;" />
