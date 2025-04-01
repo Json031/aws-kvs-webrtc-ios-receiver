@@ -3,13 +3,13 @@ $iOSVersion = '11.0'
 platform :ios, $iOSVersion
 use_frameworks!
 
-target 'AWSKinesisVideoWebRTCDemoApp' do
+target 'AWSKVSWebRTCReceiver' do
   pod 'CommonCryptoModule'
   pod 'AWSKinesisVideo'
   pod 'AWSKinesisVideoSignaling'
   pod 'GoogleWebRTC', '~> 1.1'
   pod 'Starscream', '~> 3.0'
-  	target 'AWSKinesisVideoWebRTCDemoAppUITests' do
+  	target 'AWSKVSWebRTCReceiverUITests' do
   	  inherit! :complete
   	end
 end

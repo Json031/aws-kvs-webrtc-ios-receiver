@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AWSKinesisVideoWebRTCDemoAppVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AWSKinesisVideoWebRTCDemoAppVersionString[];
+FOUNDATION_EXPORT double Pods_AWSKVSWebRTCReceiverVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_AWSKVSWebRTCReceiverVersionString[];
 
