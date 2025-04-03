@@ -38,9 +38,9 @@ A modified version of amazon-kinesis-video-streams-webrtc-sdk-ios that expanded 
 ```
 
 
-##### Note
+##### Note提示
 
-* _This sample application has been tested in iPhone 11 and iPhone XS MAX._
+* _This sample application has been tested in iPhone 11 and iPhone XS MAX.此示例应用程序已在iPhone 11和iPhone XS MAX上进行了测试._
 
-## License
+## License许可证
 This library is licensed under the [Apache 2.0 License](https://github.com/awslabs/amazon-kinesis-video-streams-webrtc-sdk-ios/blob/master/LICENSE).
