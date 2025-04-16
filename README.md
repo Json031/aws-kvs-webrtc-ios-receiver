@@ -3,7 +3,7 @@ A modified version of amazon-kinesis-video-streams-webrtc-sdk-ios that expanded 
 <br>亚马逊KVS WebRTC视频流的修改版本，拓展支持了仅接收视频流和音频流的使用场景。AWS身份验证已从Cognito切换到AWS静态凭据。
 
 #### Tip 1: Before running the app, replace the AWSAccessKey and AWSSecretKey, and enter your channel name and region.<br>在运行应用程序之前，请替换AWSAccessKey和AWSSecretKey，并输入您的频道名称和地区。
-#### Tip 2: When the popup requests microphone permission, please select 'Don't Allow' directly. This microphone popup might be a bug in the official WebRTC implementation because it will popup even if set isAudioOn to false.<br>当弹出窗口请求麦克风权限时，请直接选择“Don't Allow”。这个麦克风弹出窗口可能是官方WebRTC实现中的一个错误，因为即使将isAudioOn设置为false，它也会弹出。
+#### Tip 2: When the popup requests microphone permission, please select 'Don't Allow' directly, it won't start recording and won't affect usage. This microphone popup might be a bug in the official WebRTC implementation because it will popup even if set isAudioOn to false.<br>当弹出窗口请求麦克风权限时，请直接选择“Don't Allow”，它不会开启录音，不影响使用。这个麦克风弹出窗口可能是官方WebRTC实现中的一个错误，因为即使将isAudioOn设置为false，它也会弹出。
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f00eb1cc-e50f-4e54-b508-8ca13478d7a9" width="300" style="border: 2px solid blue;" />
