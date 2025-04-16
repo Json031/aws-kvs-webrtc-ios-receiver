@@ -10,6 +10,8 @@ A modified version of amazon-kinesis-video-streams-webrtc-sdk-ios that expanded 
   <img src="https://github.com/user-attachments/assets/6ccb3b4b-85b1-470d-b944-95f83b0db15f" width="300" style="border: 2px solid blue;" />
 </p>
 
+https://github.com/user-attachments/assets/d2458f3d-5320-4555-90ad-cbfab1d2d64d
+
 ## Requirements<br>环境条件
 
 * Xcode 10 and later
