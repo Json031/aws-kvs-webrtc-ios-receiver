@@ -12,12 +12,12 @@ A modified version of amazon-kinesis-video-streams-webrtc-sdk-ios that expanded 
 
 https://github.com/user-attachments/assets/d2458f3d-5320-4555-90ad-cbfab1d2d64d
 
-## Requirements<br>环境条件
+# Requirements<br>环境条件
 
 * Xcode 10 and later
 * iOS 11 and later
 
-#### Using XCode to build the project<br>使用XCode构建项目
+### Using XCode to build the project<br>使用XCode构建项目
 
 1. The AWSKinesisVideo SDK for iOS is available through [CocoaPods](http://cocoapods.org). If you have not installed CocoaPods, install CocoaPods: (Requires Ruby installed) 
 
@@ -40,9 +40,9 @@ https://github.com/user-attachments/assets/d2458f3d-5320-4555-90ad-cbfab1d2d64d
 ```
 
 
-##### Note提示
+### Note提示
 
 * _This sample application has been tested in iPhone 11 and iPhone XS MAX.<br>此示例应用程序已在iPhone 11和iPhone XS MAX上进行了测试._
 
-## License许可证
+# License许可证
 This library is licensed under the [Apache 2.0 License](https://github.com/awslabs/amazon-kinesis-video-streams-webrtc-sdk-ios/blob/master/LICENSE).
