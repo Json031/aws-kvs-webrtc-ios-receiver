@@ -1,6 +1,6 @@
 # aws-kvs-webrtc-ios-receiver
 ![Swift 5](https://img.shields.io/badge/Swift-5.0-orange.svg)
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/Json031/aws-kvs-webrtc-ios-receiver/blob/main/LICENSE)
+[![License](http://img.shields.io/:license-apache-brightgreen.svg)](https://github.com/Json031/aws-kvs-webrtc-ios-receiver/blob/main/LICENSE)
 <br>
 A modified version of amazon-kinesis-video-streams-webrtc-sdk-ios that expanded support for usage scenarios that only receive video and audio streams. AWS authentication is switched from Cognito to AWS Static Credentials.  
 <br>亚马逊KVS WebRTC视频流的修改版本，拓展支持了仅接收视频流和音频流的使用场景。AWS身份验证已从Cognito切换到AWS静态凭据。
